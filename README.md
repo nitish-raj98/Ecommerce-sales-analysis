@@ -85,8 +85,10 @@ The analysis includes exploratory data analysis, statistical insights, and busin
 - `README.md` - Project documentation
 
 ## Author
-Nitish Raj
+Nitish Raj | Senior Data Analyst | New Delhi, India
 Data Analyst | Python | Pandas | Matplotlib | Seaborn
+GitHub: https://github.com/nitish-raj98
+Gmail: nnitishraj2016@gmail.com
 
 ## Date
 July 2026
