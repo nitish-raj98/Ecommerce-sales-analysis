@@ -41,16 +41,25 @@ The analysis includes exploratory data analysis, statistical insights, and busin
 ## Key Findings
 
 ### Revenue Metrics
-- Total Sales: ${df['Sales'].sum():,.2f}
-- Total Profit: ${df['Profit'].sum():,.2f}
-- Profit Margin: {(df['Profit'].sum()/df['Sales'].sum())*100:.2f}%
-- Average Order Value: ${df['Sales'].mean():,.2f}
+
+  Total Sales Revenue: $10,667,881.00
+  Total Profit: $1,844,665.21
+  Profit Margin: 17.29%
+  Average Order Value: $3,047.97
+  Average Profit per Order: $527.05
 
 ### Top Performers
-- Best Product: {df.groupby('Product_Name')['Sales'].sum().idxmax()}
-- Best Region: {df.groupby('Region')['Sales'].sum().idxmax()}
-- Most Profitable Category: {df.groupby('Category')['Profit'].sum().idxmax()}
-
+  1. Camera: $1,177,381.00
+  2. Monitor: $1,160,048.00
+  3. Printer: $1,094,216.00
+     
+### REGIONAL PERFORMANCE
+  
+  South: Sales $2,659,548.00 | Profit $458,103.27
+  East: Sales $2,675,110.00 | Profit $464,888.46
+  North: Sales $2,488,773.00 | Profit $426,314.75
+  West: Sales $2,844,450.00 | Profit $495,358.73
+  
 ## Visualizations Generated
 1. Top 10 Products by Sales
 2. Sales by Region
@@ -86,7 +95,7 @@ The analysis includes exploratory data analysis, statistical insights, and busin
 
 ## Author
 Nitish Raj | Senior Data Analyst | New Delhi, India
-Data Analyst | Python | Pandas | Matplotlib | Seaborn
+Python | Numpy |  Pandas | Matplotlib | Seaborn
 GitHub: https://github.com/nitish-raj98
 Gmail: nnitishraj2016@gmail.com
 
