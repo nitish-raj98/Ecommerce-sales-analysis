@@ -89,11 +89,12 @@ The analysis includes exploratory data analysis, statistical insights, and busin
 5. Investigate underperforming regions for improvement opportunities
 
 ## Files Included
-- `ecommerce_sales_analysis.ipynb` - Complete Jupyter notebook with analysis
-- `analysis_results.csv` - Summary statistics export
-- `README.md` - Project documentation
+- ecommerce_sales_analysis.ipynb` - Complete Jupyter notebook with analysis
+- analysis_results.csv` - Summary statistics export
+- README.md` - Project documentation
 
 ## Author
+
 Nitish Raj | Senior Data Analyst | New Delhi, India
 Python | Numpy |  Pandas | Matplotlib | Seaborn
 GitHub: https://github.com/nitish-raj98
